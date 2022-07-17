@@ -16,8 +16,14 @@ arr.sort(function(a,b) {
 });
  
  
+console.log(arr);
+
+/**
+ used this to display in Adobe LiveCycle JS
 for(i=0; i<=arr.length; i++){
 
 	xfa.resolveNode("Form.bdyMain.frmTableIreland.test.TextField1").rawValue += arr[i];
 
 };
+
+*/
